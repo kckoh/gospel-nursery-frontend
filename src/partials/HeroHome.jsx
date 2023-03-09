@@ -40,7 +40,7 @@ function HeroHome() {
             Gospel Kindergarten And Primary School
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              We are a private Christain Kindergarten and primary School located in the heart of Kigali, Rwanda.
+              We are a private Christain Kindergarten and primary School, located in the heart of Kigali, Rwanda.
             </p>
          
           </div>
