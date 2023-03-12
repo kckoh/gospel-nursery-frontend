@@ -26,7 +26,16 @@ export default function Map(){
 <div className="relative flex justify-center">
 
 
-<iframe className="relative flex justify-center items-center " width="560" height="315" src={import.meta.env.VITE_GOOGLE_MAP_KEY} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+
+<iframe
+ className="relative flex justify-center items-center " 
+ width="560" height="315" 
+ src={import.meta.env.GOOGLE_MAP_API} 
+ title="google maps" 
+ frameBorder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" >
+
+ </iframe>
 
 </div>
 </ section>

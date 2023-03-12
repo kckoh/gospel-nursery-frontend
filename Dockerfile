@@ -26,7 +26,7 @@ WORKDIR /app
 # Copy the build files from build-stage to the container
 COPY --from=build-stage /app/dist/ /app
 # delete default.conf 
-RUN rm /etc/nginx/conf.d/default.conf
+# RUN rm /etc/nginx/conf.d/default.conf
 
 # copy the nginx.conf from the host computer to the container nginx.conf 
 COPY ./nginx.conf /etc/nginx/conf.d
