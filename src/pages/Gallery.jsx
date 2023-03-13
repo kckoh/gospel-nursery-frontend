@@ -11,7 +11,7 @@ export default function Gallery() {
     const [images, setImages] = useState([]);
 
     useEffect( () => {
-      fetch('http://gospelbackend-env.eba-pqmzkhpf.us-east-1.elasticbeanstalk.com/api/images')
+      fetch('https://api.gospelnursery.net/api/images')
       .then(response => response.json())
       .then(data => setImages(data))
       },[]);
