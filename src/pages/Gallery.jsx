@@ -11,7 +11,7 @@ export default function Gallery() {
     const [images, setImages] = useState([]);
 
     useEffect( () => {
-      fetch('https://api.gospelnursery.net/vi/images')
+      fetch('https://api.gospelnursery.net/v1/images')
       .then(response => response.json())
       .then(data => setImages(data))
       },[]);
